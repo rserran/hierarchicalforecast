@@ -19,21 +19,18 @@
     "type": "github",
     "url": "https://github.com/Nixtla/hierarchicalforecast"
   },
-  "topAnchor": {
-    "name": "HierarchicalForecast",
-    "icon": "crown"
-  },
   "navigation": [
     {
       "group": "",
-      "pages": ["index.html"]
+      "pages": ["index"]
     },
     {
       "group": "Getting Started",
       "pages": [
-        "examples/installation.html",
-        "examples/tourismsmall.html",
-        "examples/introduction.html"
+        "examples/Installation",
+        "examples/TourismSmall",
+        "examples/TourismSmallPolars",
+        "examples/Introduction"
       ]
     },
     {
@@ -42,31 +39,40 @@
         {
           "group": "Point Reconciliation",
           "pages": [
-            "examples/australiandomestictourism.html",
-            "examples/australianprisonpopulation.html",
-            "examples/nonnegativereconciliation.html"
+            "examples/AustralianDomesticTourism",
+            "examples/AustralianPrisonPopulation",
+            "examples/NonNegativeReconciliation"
           ]
         },
         {
           "group": "Probabilistic Reconciliation",
           "pages": [
-            "examples/australiandomestictourism-intervals.html",
-            "examples/australiandomestictourism-bootstraped-intervals.html",
-            "examples/australiandomestictourism-permbu-intervals.html",
-            "examples/tourismlarge-evaluation.html"
+            "examples/AustralianDomesticTourism-Intervals",
+            "examples/AustralianDomesticTourism-Bootstraped-Intervals",
+            "examples/AustralianDomesticTourism-Permbu-Intervals",
+            "examples/TourismLarge-Evaluation"
           ]
         },
-        "examples/mlframeworksexample.html"
+        {
+          "group": "Temporal Reconciliation",
+          "pages": [
+            "examples/AustralianDomesticTourismTemporal",
+            "examples/AustralianDomesticTourismCrossTemporal",
+            "examples/M3withThief",
+            "examples/LocalGlobalAggregation"
+          ]
+        },
+        "examples/MLFrameworksExample"
       ]
     },
     {
       "group": "API Reference",
       "pages": [
-        "core.html",
-        "methods.html",
-        "probabilistic_methods.html",
-        "evaluation.html",
-        "utils.html"
+        "core",
+        "methods",
+        "probabilistic_methods",
+        "evaluation",
+        "utils"
       ]
     }
   ]
